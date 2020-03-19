@@ -62,7 +62,7 @@ vagrant up
 Vagrant name | Hostname | IP Address
 --- | --- | ---
 web01 | web01.local | 192.168.99.50
-web02 | web02.local | 192.168.50.51
+web02 | web02.local | 192.168.99.51
 
 __Connection to a vagrant machine and starting the lesson__
 
