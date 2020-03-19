@@ -1,0 +1,5 @@
+According to our knowlegde, you as starting systemadmin, are known in how to build a webserver containing a WordPress website ready for use. 
+
+To complete this lesson you will need to finish the following steps:
+1. Reconfigure the web01, according to your own written manual you made during the first lessons.
+2. Configure the web02 server. When all steps are completed write a configuration manual for web02 server. 

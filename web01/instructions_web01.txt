@@ -1,0 +1,9 @@
+To set up our web01 server, the following actions need to be done.
+
+1. Add your own public key to the machine. Generate your private/public keys on your host machine (Windows for example) and add the public key to the /home/vagrant/.ssh/authorized_keys file. By doing so we can control the server with the 'ssh vagrant@192.168.99.50' command instead of the 'vagrant ssh web01' commaned.
+2. Install apache, php, mysql-server, vim, fail2ban packages to prepare the server for serving webpages.
+3. Set-up an WordPress site within the /var/www/html directory. 
+4. Set-up the following security-headers: 'X-XSS-Protection: 1; mode=block','X-Frame-Options: SAMEORIGIN','X-Content-Type-Options: nosniff'. By doing so, we as systemadmins can provide a small level of security configurations to the server. 
+5. Configure the WordPress site with the plugin 'WordFence'. 
+
+When all steps are done, this server is ready for deployment. 

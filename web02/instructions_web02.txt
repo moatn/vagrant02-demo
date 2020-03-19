@@ -1,0 +1,15 @@
+To set up our web02 server, the following actions need to be done. 
+
+The main purpose of the web02 server is for deploying Docker containers.
+
+1. Add your own public key to the machine. Generate your private/public keys on your host machine (Windows for example) and add the public key to the /home/vagrant/.ssh/authorized_keys file. By doing so we can control the server with the 'ssh vagrant@192.168.99.51' command instead of the 'vagrant ssh web02' commaned.
+2. Install Docker-ce, docker-compose, vim and fail2ban packages to prepare the server for deploying Docker containers.
+3.1 This webserver is for testing purposes only. Try and set up a simpe WordPress Docker container. To do so, you will need to deploy a WordPress Docker container and a MySQL Docker container and create a 'link' between them. You can use the follow references for help:
+    https://hub.docker.com/_/wordpress/
+
+3.2 (EXTRA) You can also try and set-up a WordPress site using Docker-compose. To do so, you can use the following references:
+    https://docs.docker.com/compose/wordpress/
+
+When all steps are done, this docker testing server is ready for deployment. 
+
+4. When all previous steps are completed, write a configuration manual for web02 server. 
