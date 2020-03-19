@@ -6,7 +6,7 @@ This repo is intended for educational purposes only.
 
 ## Prerequisites
 
-This setup is badly tested (: 
+This setup is slightly tested (: 
 
 Works on MacOS Catalina.
 
@@ -62,7 +62,7 @@ vagrant up
 Vagrant name | Hostname | IP Address
 --- | --- | ---
 web01 | web01.local | 192.168.99.50
-web02 | web02.local | 192.168.50.52
+web02 | web02.local | 192.168.50.51
 
 __Connection to a vagrant machine and starting the lesson__
 
